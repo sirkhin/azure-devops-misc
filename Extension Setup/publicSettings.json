@@ -1,0 +1,7 @@
+{
+    "isPipelinesAgent" : true,
+    "enableScriptDownloadUrl" : "https://dev.azure.com/mseng/AzureDevOps/_git/CIPlat.Externals?version=GBusers/slavairkhin/UseEnvVariableToSetAgentLogFolderPath&path=/ElasticPools/Windows/17/enableagent.ps1",
+    "agentFolder" : "/agent",
+    "agentDownloadUrl": "https://vstsagentpackage.azureedge.net/agent/2.213.2/vsts-agent-win-x64-2.213.2.zip",
+    "enableScriptParameters" : "https://dev.azure.com/slavairkhin/ Default ak4b7jf3huip4kawltoqirgid5omolkmxvwq45lmkej67w5cyjfq"
+}
