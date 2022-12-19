@@ -65,7 +65,7 @@ $machineEnvVariables.Keys | Where-Object { $_.StartsWith("VSTS_AGENT_INPUT_") } 
    }
 }
 
-$agentDiagFolder = "C:\WindowsAzure\Logs\Plugins\Microsoft.VisualStudio.Services.TeamServicesAgent"
+$agentDiagFolder = "C:\WindowsAzure\Logs\Plugins\Microsoft.VisualStudio.Services.TeamServicesAgent\_diag"
 [System.Environment]::SetEnvironmentVariable('AGENT_DIAGLOGPATH', $agentDiagFolder, [System.EnvironmentVariableTarget]::Machine)
 
 # Determine if we should run as local user or as LocalSystem.
