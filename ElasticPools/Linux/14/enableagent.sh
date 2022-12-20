@@ -64,7 +64,7 @@ fi
 
 # sudo mkdir /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/agent
 sudo mkdir -p /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/agent/_diag
-sudo chown AzDevOps:AzDevOps /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/agent
+sudo chown -R AzDevOps:AzDevOps /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/agent
 # sudo chmod -R 1775 /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/_diag
 export AGENT_DIAGLOGPATH="/var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/agent/_diag"
 # mkdir /agent/_diag2
