@@ -65,7 +65,9 @@ fi
 sudo mkdir /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/_diag
 sudo chown AzDevOps:AzDevOps /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/_diag
 sudo chmod -R 0775 /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/_diag
-export AGENT_DIAGLOGPATH="/var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/_diag"
+# export AGENT_DIAGLOGPATH="/var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/_diag"
+# mkdir /agent/_diag2
+export AGENT_DIAGLOGPATH="/agent/_diag2"
 
 # unzip the agent files
 zipfile=$(find $dir/vsts-agent*.tar.gz)
