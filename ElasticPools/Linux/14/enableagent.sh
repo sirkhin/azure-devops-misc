@@ -62,8 +62,8 @@ else
     echo 'AzDevOps ALL=NOPASSWD: ALL' >> /etc/sudoers
 fi
 
-sudo mkdir /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/agent
-sudo mkdir /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/agent/_diag
+# sudo mkdir /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/agent
+sudo mkdir -p /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/agent/_diag
 sudo chown AzDevOps:AzDevOps /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/agent
 # sudo chmod -R 1775 /var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/_diag
 export AGENT_DIAGLOGPATH="/var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/agent/_diag"
