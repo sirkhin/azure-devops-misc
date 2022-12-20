@@ -1,7 +1,7 @@
 #!/bin/bash
 # script for the RM extension install step
 export LOGFILE="/var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/enableagent.log"
-
+export AGENT_DIAGLOGPATH="/var/log/azure/Microsoft.VisualStudio.Services.TeamServicesAgentLinux/_diag"
 
 log_message()
 {
